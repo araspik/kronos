@@ -1,0 +1,18 @@
+# KronOS text-editor rules
+
+# http://editorconfig.org
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+# Let people view this at whatever tab size they want.
+indent_style = tab
+trim_trailing_whitespace = false
+max_line_length = 100
+
+[{makefile,*.mak}]
+# We put it even if it's default, as this file format requires it.
+indent_style = tab
